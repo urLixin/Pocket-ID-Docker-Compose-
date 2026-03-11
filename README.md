@@ -42,7 +42,7 @@ BACKEND_SECRET=your_random_secret_here
 
 ### 3. Create the Docker Compose File
 
-Create `docker-compose.yml` and paste the following configuration. This setup routes traffic through your `newt_proxy` network.
+Create `compose.yml` and paste the following configuration. This setup routes traffic through your `newt_proxy` network.
 
 ```yaml
 services:
